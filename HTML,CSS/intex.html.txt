@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my new website</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;    
+        }
+        h1 {
+            color:green;
+            text-align: center;
+            }
+            p {
+                line-height: 1.9em;
+                
+            }
+            .c1 
+            {
+            color: rgb(233, 201, 22);
+            background-image:url('../TCS.jpg');
+            border:red 5px solid;
+            padding:20px;
+            }
+            .c3 {
+                color: tomato;
+                text-transform:capitalize;
+                letter-spacing: 0.2em;
+                word-spacing: 1em;
+            }
+            .c2
+            {
+                color:blue;
+                background-color:yellow;
+                font-family:'Times New Roman', Times, serif;
+                text-decoration: underline;
+                font-style:italic;
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+                word-spacing: 1em;
+            }
+            .c4
+            {
+                border:1px red solid;
+                border-radius: 15px;
+            }
+            .c4 ul {
+                list-style:square;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                color: red;
+            }
+            a:active {
+                color: rgb(174, 196, 184);
+            }
+            a:visited {
+                color: rgb(64, 52, 224);
+            }
+            .c4 li {
+                padding-bottom: 5px ;
+            }
+            .f1 {
+                padding: 20px;
+            }
+            .fg {
+                padding-bottom: 20px;
+            }
+            .f1 label{
+                display:block;
+            }
+            .button {
+                background-color: rgb(187, 36, 36);
+                color:white;
+                padding:10px;
+                border:none;
+            }
+            .button:hover {
+                background-color: turquoise;
+                color:white;
+            }
+            .block {
+                float:right;
+                width:33.3%;
+                border:3px solid blue;
+                padding-bottom: 10px;
+                box-sizing: border-box;
+                
+            }
+            .container{
+                width:80%;
+                margin:auto;
+            }
+            .container-1 div , .container-2 div{
+                border:1px rgb(224, 150, 12) solid;
+                padding:10px;
+            }
+            .container-1{
+                width:80%;
+                margin:auto;
+                padding-top: 10px;
+                display: flex;
+                flex-direction:row;
+            }
+            .container-2 {
+                width:80%;
+                margin:auto;
+                display: flex;
+                justify-content: flex-end;
+                justify-content: space-around;
+            }
+            .box-11 {
+                width: 30%;
+            }
+            .box-1 {
+                flex:1
+            }
+            .box-2 {
+                flex:2
+            }
+            .box-3 {
+                flex:1
+            }
+            </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>tamil hacks</h1>
+        <div class="c1">
+            <p>
+                A paragraph is a series of related sentences developing a central idea, called the topic.
+                Try to think about paragraphs in terms of thematic unity: 
+                a paragraph is a sentence or a group of sentences that supports one central, unified idea. </p>
+            </div>
+            <div class="c2">
+                <p>
+                    Hi guys welcome to Tamil Hacks Vlogs 👩‍💻
+                    Give this video a Thumbs Up 👍Share & Subscribe  for More Videos😉
+                    Show your support to recover the channel💖
+                    Click the bell icon to get notified for new videos 🔔
+                    Sfeel free to drop your doubts in the comment section 📳
+                </p> </div>
+                <br>  <hr>
+                <div class="c3">
+                <p>
+                    A paragraph is a brief of writing that's  around seven to ten sentences long. 
+                    It has a topic sentence and supporting sentences that all relate closely to the topic sentence. 
+                    The paragraph form refers to its overall structure, which is a group of sentences focusing on a single topic.
+                </p> </div>
+                <br> <br>
+                <div class="c4">
+                    <h1>list</h1>
+                    <ul>
+                        <li><a href="#">hi</li>
+                        </a>
+                        <li><a href="#">hello</li>
+                        </a>
+                        <li><a href="#">welcome</li>
+                        </a>
+                    </ul>
+                </div>
+                <br> <br>
+                <form class ="f1">
+                    <div class="fg">
+                        <label>Name</label>
+                        <input type="text" name="n">
+                    </div>
+                    <div class="fg">
+                        <label>Email</label>
+                        <input type="Email"name="e">
+                    </div>
+                    <div class="fg">
+                        <label>Message</label>
+                        <textarea name="Message"></textarea>
+                    </div>
+                    <input type="submit"name="submit"class="button">
+                </form>
+                <br> <br>
+                <div class="block">
+                    <h1>Tamil hacksss</h1>
+                    <p>A paragraph is a series of related sentences developing a central idea, called the topic.
+                        Try to think about paragraphs in terms of thematic unity: 
+                        a paragraph is a sentence or a group of sentences that supports one central, unified idea</p>
+                    </div>                
+                <div class="block">
+                    <h1>Tamil hacksss</h1>
+                    <p>A paragraph is a series of related sentences developing a central idea, called the topic.
+                        Try to think about paragraphs in terms of thematic unity: 
+                        a paragraph is a sentence or a group of sentences that supports one central, unified idea</p>
+                </div>
+                <div class="block">
+                    <h1>Tamil hacksss</h1>
+                    <p>A paragraph is a series of related sentences developing a central idea, called the topic.
+                        Try to think about paragraphs in terms of thematic unity: 
+                        a paragraph is a sentence or a group of sentences that supports one central, unified idea</p>
+                </div>
+                </div>
+                <br> <br>
+                <div class="container-1">
+                    <div class="box-1">
+                        <h3>Box 1</h3>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                    </div>
+                    <div class="box-2">
+                        <h3>Box 2</h3>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                    </div>
+                    <div class="box-3">
+                        <h3>Box 3</h3>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                    </div>
+                </div>
+                <div class="container-2">
+                    <div class="box-11">
+                        <h3>Box 1</h3>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                    </div>
+                    <div class="box-11">
+                        <h3>Box 2</h3>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                    </div>
+                    <div class="box-11">
+                        <h3>Box 3</h3>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                        <p>Hi guys welcome to tamil hacks,have fun learning.</p>
+                    </div>
+                </div>
+            </body>
+            </html>
